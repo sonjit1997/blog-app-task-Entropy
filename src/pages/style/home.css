@@ -1,0 +1,21 @@
+#title{
+    background-image: linear-gradient(to right,#f57c12,#faf6f6);
+    color: rgb(115, 107, 107);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#author{
+    background-image: linear-gradient(to right,#f63409,#ef8a31,#f63409);
+    color: rgb(115, 107, 107);
+}
+.card{
+    cursor: pointer;
+}
+
+#option{
+    box-shadow: 0 5px 5px rgb(172, 167, 167);
+}
+  
+  
+  

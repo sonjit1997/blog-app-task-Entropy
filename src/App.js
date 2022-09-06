@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { signOut } from "firebase/auth";
 import { auth } from "./Firebase";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
@@ -12,8 +12,6 @@ import Createpost from "./pages/Createpost";
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
 
- 
-
   const signUserOut = () => {
     signOut(auth).then(() => {
       localStorage.clear();
@@ -22,20 +20,19 @@ function App() {
     });
   };
 
-  const goCreatePost=()=>{
-    window.location.href = '/createpost';
-  }
+  const goCreatePost = () => {
+    window.location.href = "/createpost";
+  };
 
-  const goHome=()=>{
-    window.location.href = '/';
-  }
-
+  const goHome = () => {
+    window.location.href = "/";
+  };
 
   return (
     <Router>
       <>
         <ul
-          className="nav nav-pills nav-fill gap-2 p-1 small bg-white border rounded-5 shadow-sm"
+          className="nav nav-pills nav-fill gap-2 p-1 mt-1 small bg-white border rounded-5 shadow-sm"
           id="pillNav2"
         >
           <li className="nav-item" role="presentation">
@@ -45,7 +42,7 @@ function App() {
               type="button"
               onClick={goHome}
             >
-              <h6 className="mt-1 text text-light" >HOME</h6>
+              <h6 className="mt-1 text text-light">HOME</h6>
             </button>
           </li>
           {isAuth ? (
@@ -56,8 +53,7 @@ function App() {
                 type="button"
                 onClick={goCreatePost}
               >
-                <h6 className="mt-1 text text-light" >Createpost</h6>
-               
+                <h6 className="mt-1 text text-light">Createpost</h6>
               </button>
             </li>
           ) : (
@@ -102,7 +98,7 @@ function App() {
                   </h6>
                   <button
                     type="button"
-                    class="btn-close"
+                    className="btn-close"
                     data-bs-dismiss="offcanvas"
                     aria-label="Close"
                   ></button>

@@ -9,28 +9,28 @@
  }
 
 #home-tab2{
-  background-image: linear-gradient(to left,#0a8bb6,#f48989);
+  background-image: linear-gradient(to left,#e22626,orange,#e22626);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
 }
 #home-tab2:hover{
-  background-image: linear-gradient(to right,#0a8bb6,#f48989);
+  background-image: linear-gradient(to right,#08222d,#2a93bd);
  
 
 }
 #home-tab1{
- background-image: linear-gradient(to left,#0a8bb6,#f48989);
+ background-image: linear-gradient(to left,#e22626,orange,#e22626);
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
 }
 #home-tab1:hover{
-  background-image: linear-gradient(to right,#0a8bb6,#f48989);
+  background-image: linear-gradient(to right,#08222d,#2a93bd);
 }
 #home-tab3{
- background-image: linear-gradient(to left,#0a8bb6,#f48989);
+ background-image: linear-gradient(to left,#e22626,orange,#e22626);
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  
 }
 #home-tab3:hover{
-  background-image: linear-gradient(to right,#0a8bb6,#f48989);
+  background-image: linear-gradient(to right,#08222d,#2a93bd);
 }
