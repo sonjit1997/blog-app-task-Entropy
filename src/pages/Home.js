@@ -102,7 +102,7 @@ const Home = () => {
             <input
               className="nav-link rounded-p5 bg-light "
               id="input"
-              placeholder="Search blogs which you want to see..."
+              placeholder="Search blogs  with any words..."
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
